@@ -1,0 +1,11 @@
+font=Terminess Nerd Font 10
+sort=-time
+layer=overlay
+anchor=top-center
+background-color=#282828
+padding=0,15,25
+border-radius=12
+border-color=#d65d0e
+icons=1
+max-icon-size=32
+default-timeout=5000
