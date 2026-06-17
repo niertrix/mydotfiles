@@ -1,0 +1,57 @@
+@import "schemes/gruvbox-dark.css";
+
+* {
+  font-family: Terminess Nerd Font Propo;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#tray {
+	padding: 0px 4px;
+	margin: 0px 0px 0px 0px;
+}
+window#waybar {
+  background-color: @bg0;
+  color: @fg0;
+}
+
+#workspaces button{
+  border-radius: 3px;
+  padding: 0px 4px;
+  margin: 2px 0 2px 0px;
+  color: @fg0;
+}
+
+#workspaces button.active {
+  background: @orange0;
+  font-weight: bold;
+  color: @bg0;
+  border-radius: 3px;
+  margin: 2px 0px 2px 0px;
+}
+
+#workspaces button.urgent {
+  background: @red0;
+}
+
+#bluetooth,
+#network,
+#cpu,
+#power-profiles-daemon,
+#wireplumber,
+#tray,
+#memory,
+#language,
+#battery,
+#custom-media-now-playing {
+  margin: 0px 5px 0px 5px;
+}
+
+tooltip {
+  background: @bg0;
+  border-radius: 5px;
+}
+
+tooltip label{
+  color: @fg0
+}
