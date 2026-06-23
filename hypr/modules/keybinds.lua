@@ -1,9 +1,7 @@
 local terminal = "kitty"
 local fileManager = "nemo"
-local launcher = "rofi -show drun -show-icons -icon-theme Gruvbox-Plus-Dark"
-local runner = "rofi -show run"
-local windows = "rofi -show window"
-local browser = "librewolf"
+local launcher = "fuzzel"
+local browser = "firefox"
 local editor = "codium"
 local screenshot = "grimblast -t png save area"
 
@@ -17,8 +15,6 @@ hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(launcher))
-hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.exec_cmd(runner))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(windows))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(editor))
 hl.bind("PRINT", hl.dsp.exec_cmd(screenshot))
 ---------------------
